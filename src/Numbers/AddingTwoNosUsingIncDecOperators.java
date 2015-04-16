@@ -1,5 +1,5 @@
 /*
- * Question: Write code to sum 2 integer but u cant use a+b method, you have to use either ++ or --. 
+ * Question: Write code to sum 2 integer but u can't use a+b method, you have to use either ++ or --. 
  * How you will handle negative numbers.
  
  Question and Answer Source: http://www.careercup.com/question?id=5671819755388928
