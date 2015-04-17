@@ -1,0 +1,15 @@
+Question:
+Write a query which return 5 persons who had spent most from a table and table contains customer id, 
+product id and expenses. Customer id can be duplicate.
+
+Answer: We need to create minHeap. The root will be the element with the lowest value.
+Traverse all the values in all the three files, if we come across a value which is greater than the top of the Heap then
+replace the top with this value.
+
+Hence we use minHeap and not maxHeap.
+
+To Remember:
+When we need to find the top 5 lowest elements -> use minHeap
+If a value is less than top then replace top
+When we need to find the top 5 highest elements -> use minHeap
+If a value is greater than top then replace the top
